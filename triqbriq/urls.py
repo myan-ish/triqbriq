@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
 
@@ -11,4 +11,6 @@ documentaiton_apis = [
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]+ documentaiton_apis
+    path('', include(documentaiton_apis)),
+    path('project/', include('project.urls')),
+]

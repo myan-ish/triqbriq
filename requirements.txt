@@ -26,6 +26,8 @@ djangorestframework-simplejwt==5.2.1
     # via -r requirements.in
 drf-spectacular==0.24.2
     # via -r requirements.in
+drf-writable-nested==0.7.0
+    # via -r requirements.in
 inflection==0.5.1
     # via drf-spectacular
 jsonschema==4.16.0

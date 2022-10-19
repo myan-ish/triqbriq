@@ -3,3 +3,4 @@ djangorestframework
 django-filter
 drf-spectacular
 djangorestframework-simplejwt
+drf-writable-nested
