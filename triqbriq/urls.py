@@ -13,4 +13,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(documentaiton_apis)),
     path('project/', include('project.urls')),
+    path('material/', include('material.urls')),
 ]

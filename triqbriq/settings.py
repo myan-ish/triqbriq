@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Apps
     'project',
+    'material',
 
     # Third party apps
     'rest_framework',
